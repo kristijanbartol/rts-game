@@ -1,13 +1,15 @@
+--http://springrts.com/wiki/Modinfo.lua
 local modinfo = {
-  name = "My Awesome Spring Game",
-  shortName = "MASG",
-  game = "My Awesome Spring Game",
-  shortGame = "MASG",
-  mutator = "Official",
-  version = "v1.0",
-  description =	"An awesome game I made with units",
-  url =	"http://www.linktomyawesomegame.com/",
-  modtype = 1,
+	name = "Spring Tutorial Game",
+	shortname = "STG",
+	game = "STG",
+	shortgame = "STG",
+	description = "Basic game to help new modders",
+	url = "code.google.com/p/springtutorialgame",
+	version = "0.1", --when zipping .sdz for releasing make this a full integer like 1,2,3
+	modtype = 1,
+	depend = {
+		"cursors.sdz",
+	}
 }
-
 return modinfo
